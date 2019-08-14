@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ooworx_ScopesExplorer</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Show overridden scopes into configuration and product admin.</summary>
+    <description>Show overridden scopes into configuration and product admin. You can list in one click which website or stores who are not set to default scopes for one option / field.</description>
+    <notes>Initial package</notes>
+    <authors><author><name>Ooworx</name><user>ooworx</user><email>support@ooworx.com</email></author></authors>
+    <date>2015-09-21</date>
+    <time>09:46:49</time>
+    <contents><target name="magecommunity"><dir name="Ooworx"><dir name="ScopesExplorer"><dir name="Block"><dir name="Catalog"><dir name="Form"><dir name="Renderer"><dir name="Fieldset"><file name="Element.php" hash="2fc58369af7ae4fbbf8944c897be398e"/></dir></dir></dir></dir><dir name="System"><dir name="Config"><file name="Form.php" hash="3ad93ce446d84beb9493c78d0c49489b"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="f5154b62456c6dba46e60fcf8358359f"/></dir><dir name="etc"><file name="config.xml" hash="843b977ea4887c2dd0d51d37c464a390"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ooworx_ScopesExplorer.xml" hash="b394675874f61b1a5f1823e7b81dcf88"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Magento_Core_Modules</name><channel>community</channel><min>1.6</min><max>1.9</max></package></required></dependencies>
+</package>
