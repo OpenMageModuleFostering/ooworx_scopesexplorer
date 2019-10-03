@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Ooworx_ScopesExplorer",
+    "name": "OpenMageModuleFostering\/Ooworx_ScopesExplorer",
     "type": "magento-module",
     "license": "GPLv3",
     "homepage": "",
     "description": "Show overridden scopes into configuration and product admin.",
     "authors": [
-    {
-        "name": "Ooworx",
-        "email": "support@ooworx.com"
-    }
-],
+        {
+            "name": "Ooworx",
+            "email": "support@ooworx.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
